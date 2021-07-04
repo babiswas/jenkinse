@@ -5,5 +5,10 @@ with open('test.csv','w',newline='') as file:
      writer.writeheader()
      for obj in [("hello","bello"),("bello","tello")]:
          writer.writerow({"name":obj[0],"email":obj[1]})
+     
+     
+     
+     
+     print("beloo bello")
 
     
